@@ -32,7 +32,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import statsmodels.api as sm 
 
-
+%matplotlib inline
 
 os.chdir("/Users/mattiacalzetta/Desktop")
 df=pd.read_csv("data.csv")
